@@ -36,6 +36,8 @@ The workflow will progressively include:
 
 Additional tools, such as SAMtools or featureCounts, may be added as independent learning extensions.
 
+["Learning goals"](./imgs/ChatGPT_ImageJul30_2026_09_19_33PM.png)
+
 ## Reproducibility and software quality
 
 The repository will include:
