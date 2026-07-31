@@ -1,4 +1,4 @@
-# Nextflow RNA-seq Learning Pipeline
+# Nextflow RNA-seq Pipeline
 
 An educational RNA-seq workflow developed with **Nextflow** to practice reproducible bioinformatics, workflow engineering, testing, and scientific software development.
 
