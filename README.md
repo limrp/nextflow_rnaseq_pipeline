@@ -6,6 +6,21 @@ This repository is based on the **Nextflow for Science RNA-seq training course**
 
 > **Important:** This project is intended for learning and portfolio purposes. It is not currently designed for clinical or production use.
 
+## Planned workflow
+
+The workflow will progressively include:
+
+1. Raw-read quality control with FastQC
+2. Adapter and quality trimming
+3. Quality control of trimmed reads
+4. Alignment to a reference genome
+5. Alignment quality assessment
+6. Aggregated reporting with MultiQC
+
+Additional tools, such as SAMtools or featureCounts, may be added as independent learning extensions.
+
+![workflow](./imgs/ChatGPT_Image_Jul_30_2026_09_29_53PM.png)
+
 ## Learning objectives
 
 This project is being developed to strengthen practical skills in:
@@ -23,20 +38,7 @@ This project is being developed to strengthen practical skills in:
 * Configuration profiles and resource management
 * nf-core-inspired development practices
 
-## Planned workflow
-
-The workflow will progressively include:
-
-1. Raw-read quality control with FastQC
-2. Adapter and quality trimming
-3. Quality control of trimmed reads
-4. Alignment to a reference genome
-5. Alignment quality assessment
-6. Aggregated reporting with MultiQC
-
-Additional tools, such as SAMtools or featureCounts, may be added as independent learning extensions.
-
-["Learning goals"](./imgs/ChatGPT_ImageJul30_2026_09_19_33PM.png)
+![Learning_goals](./imgs/ChatGPT_Image_Jul30_2026_09_26_27PM.png)
 
 ## Reproducibility and software quality
 
@@ -153,7 +155,11 @@ The end-to-end test will verify that:
 * Sample metadata remains attached to the correct files
 * Intermediate trimmed reads are not published unintentionally
 
-## Continuous integration
+## CI/CD
+
+![CI_CD](./imgs/cd_ci_1.png)
+
+### Continuous integration
 
 GitHub Actions will automatically run checks on pull requests and changes to the main branch.
 
@@ -168,7 +174,7 @@ Planned CI checks include:
 * Testing against supported Nextflow versions
 * Uploading execution reports as CI artifacts
 
-## Continuous delivery
+### Continuous delivery
 
 Version tags will identify stable learning milestones.
 
