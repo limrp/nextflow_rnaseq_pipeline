@@ -206,6 +206,8 @@ In the AI era, generating code is not sufficient. This repository aims to demons
 
 AI may assist with development, but all important code and design decisions will be reviewed, tested, and documented.
 
+![ai_1](./imgs/ai_1.png)
+
 ## Evidence of learning
 
 The development history will include:
@@ -220,6 +222,8 @@ The development history will include:
 * Tested and versioned releases
 
 The objective is to demonstrate not only that the workflow runs, but also that its scientific purpose, data flow, design decisions, and limitations are understood.
+
+![Evidence_1](./imgs/evidence_1.png)
 
 ## Planned repository structure
 
