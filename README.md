@@ -2,9 +2,9 @@
 
 An educational RNA-seq workflow developed with **Nextflow** to practice reproducible bioinformatics, workflow engineering, testing, and scientific software development.
 
-This repository is based on the **Nextflow for Science RNA-seq training course**. It will progressively evolve from a simple training workflow into a modular, tested, and reproducible pipeline.
+This repository is based on the **Nextflow for Science RNA-seq training course**. 
 
-> **Important:** This project is intended for learning and portfolio purposes. It is not currently designed for clinical or production use.
+It will progressively evolve from a simple training workflow into a modular, tested, and reproducible pipeline.
 
 ## Planned workflow
 
@@ -19,7 +19,7 @@ The workflow will progressively include:
 
 Additional tools, such as SAMtools or featureCounts, may be added as independent learning extensions.
 
-![workflow](./imgs/ChatGPT_Image_Jul_30_2026_09_29_53PM.png)
+![workflow_1](./imgs/workflow_1.png)
 
 ## Learning objectives
 
@@ -38,7 +38,7 @@ This project is being developed to strengthen practical skills in:
 * Configuration profiles and resource management
 * nf-core-inspired development practices
 
-![Learning_goals](./imgs/ChatGPT_Image_Jul30_2026_09_26_27PM.png)
+![Learning_goals](./imgs/learning_1.png)
 
 ## Reproducibility and software quality
 
